@@ -17,7 +17,7 @@ for i in range(0, 30):
     myExponential
 
 
-# twelfth trial
+# twelfth trial - changing scales
 plt.figure('cube exp log')
 plt.clf()
 plt.plot(mySamples, myCubic, 'g--', label='cubic', linewidth=2.0)

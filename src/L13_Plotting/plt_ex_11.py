@@ -20,7 +20,7 @@ for i in range(0, 30):
 # eleventh trial
 plt.figure('lin quad')
 plt.clf()
-plt.subplot(211)
+plt.subplot(211)  # args are number of rows and cols, and which location to use
 plt.ylim(0, 900)
 plt.plot(mySamples, myLinear, 'b-', label='linear', linewidth=2.0)
 plt.subplot(212)
