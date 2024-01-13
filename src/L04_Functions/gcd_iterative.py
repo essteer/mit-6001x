@@ -16,7 +16,6 @@ def gcd_iter(a, b):
 
     return divisor
 
-
 print(gcd_iter(2, 12))
 print(gcd_iter(6, 12))
 print(gcd_iter(9, 12))
